@@ -11,7 +11,7 @@ stages{
 stage('Build Code')
 {
   steps{
-        git 'https://github.com/Sonal0409/DevOpsCodeDemo.git'
+        git 'https://github.com/Varad5005/Jenkinsfile-Demo-pipleineCode.git'
         sh 'mvn package'
         script{
           timeout(time: 10,unit: 'MINUTES'){
